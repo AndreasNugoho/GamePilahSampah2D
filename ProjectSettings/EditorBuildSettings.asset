@@ -32,4 +32,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Selamat3.unity
     guid: b8e2ab4c84353684a9d1b1093cd3090f
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: ea4ed57dc8f235a458d235e2f8de15b3
+  - enabled: 1
+    path: Assets/Scenes/ToLevelFour.unity
+    guid: de6642d08f9ae9e469ed2f09e8312184
+  - enabled: 1
+    path: Assets/Scenes/SelamatToLevelFive.unity
+    guid: 296ac7f288e6d52498e611bd9bdb47f0
+  - enabled: 1
+    path: Assets/Scenes/Level 5.unity
+    guid: 91897ed01da61734faceefbe9a606fcb
+  - enabled: 1
+    path: Assets/Scenes/ToLevelFive.unity
+    guid: f32b4610aa389d443927125f30cac599
+  - enabled: 1
+    path: Assets/Scenes/SelamatToEnd.unity
+    guid: 3d2d47d3f733bb048bffbcecbb325ce2
+  - enabled: 1
+    path: Assets/Scenes/ToLevelThree.unity
+    guid: 07586699845f6a84c8bdf57ec67fa411
+  - enabled: 1
+    path: Assets/Scenes/SelamatToFour.unity
+    guid: e2a97c6f447ae7e4b91bf28292e69fcd
+  - enabled: 1
+    path: Assets/Scenes/ToLevelTwo.unity
+    guid: bb6548065cd4789429624adba056c769
+  - enabled: 1
+    path: Assets/Scenes/SelamatToThree.unity
+    guid: 88b333a5ac6208c4fb2c43fca5250d21
   m_configObjects: {}

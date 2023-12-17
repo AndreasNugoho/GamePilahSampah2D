@@ -27,21 +27,15 @@ public class DeteksiSampah3 : MonoBehaviour
     {
         if (collision.tag.Equals(nameTag))
         {
-            Data.score += 25;
-            if (Data.score >= 60)
-            {
-                Data.score = 0;
-                SceneManager.LoadSceneAsync(8);
-            }
-            textScore.text = Data.score.ToString();
+            Data.scoreLevel3 += 20;
+            textScore.text = Data.scoreLevel3.ToString();
             Destroy(collision.gameObject);
             MediaPlayerBenar.Play();
         }
         else
         {
-            Data.score -= 5;
-            SceneManager.LoadSceneAsync(5);
-            textScore.text = Data.score.ToString();
+            Data.scoreLevel3 -= 5;
+            textScore.text = Data.scoreLevel3.ToString();
             Destroy(collision.gameObject);
             MediaPlayerSalah.Play();
         }

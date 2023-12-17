@@ -27,26 +27,16 @@ public class DeteksiSampah2 : MonoBehaviour
     {
         if (collision.tag.Equals(nameTag))
         {
-            Data.score += 25;
-            if (Data.score >= 50)
-            {
-                Data.score = 0;
-                SceneManager.LoadSceneAsync(7);
-            }
-            textScore.text = Data.score.ToString();
+            Data.scoreLevel2 += 15;
+
+            textScore.text = Data.scoreLevel2.ToString();
             Destroy(collision.gameObject);
             MediaPlayerBenar.Play();
         }
         else
         {
-            Data.score -= 5;
-            SceneManager.LoadSceneAsync(5);
-            // if (Data.score >= 40)
-            // {
-            //     Data.score = 0;
-            //     SceneManager.LoadSceneAsync(4);
-            // }
-            textScore.text = Data.score.ToString();
+            Data.scoreLevel2 -= 5;
+            textScore.text = Data.scoreLevel2.ToString();
             Destroy(collision.gameObject);
             MediaPlayerSalah.Play();
         }
